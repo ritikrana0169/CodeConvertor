@@ -1,0 +1,63 @@
+
+/* Reset some default styling */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the main container */
+#container {
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+/* Style for the language select dropdown */
+#languageSelect {
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Style for the Convert, Debug, and Quality Check buttons */
+.buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the result panel */
+.result {
+    flex: 1;
+    padding: 20px;
+    margin-left: 10vh;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Style for the result panel contents */
+#resultPannel {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: white;
+    flex: 1;
+    overflow: auto;
+}
+
+/* Style for the buttons inside the result panel */
+.result button {
+    margin: 5px;
+}
+
+/* Style for responsive layout */
+@media screen and (max-width: 768px) {
+    #container {
+        width: 100%;
+    }
+}

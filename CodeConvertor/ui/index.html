@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/monaco-editor@0.27.0/min/vs/editor/editor.main.css">
+    <title>Code Convertor</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="display: flex; width: 100%;">
+        <div id="container" style="height: 100vh;width: 40%;"></div>
+<div class="result">
+
+    <div class="buttons">
+        <select id="languageSelect">
+            <option value="javascript">JavaScript</option>
+            <option value="python">Python</option>
+            <option value="java">Java</option>
+            <option value="cpp">C++</option>
+            <option value="ruby">Ruby</option>
+            <!-- Add more options for other languages as needed -->
+        </select>
+        <button id="convertCode">Convert</button>
+        <button id="debugCode">Debug</button>
+        <button id="checkQuality">Quality Check</button>
+    </div>
+<div id="resultPannel" style="line-height: 25px;">
+
+</div>
+
+</div>
+    </div>
+    
+    <!-- <button id="submitButton">Submit Code</button> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/monaco-editor@0.27.0/min/vs/loader.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
